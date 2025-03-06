@@ -24,6 +24,12 @@ chrome.runtime.onInstalled.addListener(() => {
       title: "Grok",
       contexts: ["selection"]
     });
+
+    chrome.contextMenus.create({
+      id: "searchYouTube",
+      title: "YouTube",
+      contexts: ["selection"]
+    });
   });
   
   chrome.contextMenus.onClicked.addListener((info, tab) => {
@@ -36,6 +42,8 @@ chrome.runtime.onInstalled.addListener(() => {
       url = `https://search.brave.com/search?q=${encodeURIComponent(info.selectionText)}`;
     } else if (info.menuItemId === "searchGrok") {
       url = `https://grok.com/?q=${encodeURIComponent(info.selectionText)}`;
+    } else if (info.menuItemId === "searchYouTube") {
+      url = `https://www.youtube.com/results?search_query=${encodeURIComponent(info.selectionText)}`;
     }
     
     if (url) {

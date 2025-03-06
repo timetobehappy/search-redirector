@@ -1,6 +1,6 @@
 # Search Redirector Chrome Extension
 
-A Chrome extension that allows you to quickly search selected text across multiple search platforms including ChatGPT, Google, Brave, and Grok.
+A Chrome extension that allows you to quickly search selected text across multiple search platforms including ChatGPT, Google, Brave, Grok, and YouTube.
 
 ## Features
 
@@ -10,6 +10,7 @@ A Chrome extension that allows you to quickly search selected text across multip
   - Google
   - Brave Search
   - Grok
+  - YouTube
 
 ## Installation
 
@@ -43,6 +44,7 @@ A Chrome extension that allows you to quickly search selected text across multip
    - Google
    - Brave
    - Grok
+   - YouTube
 4. A new tab will open with your search results
 
 ## Development
