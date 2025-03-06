@@ -39,10 +39,10 @@ A Chrome extension that allows you to quickly search selected text across multip
 1. Select any text on a webpage
 2. Right-click to open the context menu
 3. Choose your preferred search platform:
-   - "Search ChatGPT for '[selected text]'"
-   - "Search Google for '[selected text]'"
-   - "Search Brave for '[selected text]'"
-   - "Search Grok for '[selected text]'"
+   - ChatGPT
+   - Google
+   - Brave
+   - Grok
 4. A new tab will open with your search results
 
 ## Development

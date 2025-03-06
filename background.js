@@ -3,25 +3,25 @@ chrome.runtime.onInstalled.addListener(() => {
     console.log("Extension installed and background script running.");
     chrome.contextMenus.create({
       id: "searchChatGPT",
-      title: "Search ChatGPT for '%s'",
+      title: "ChatGPT",
       contexts: ["selection"]
     });
     
     chrome.contextMenus.create({
       id: "searchGoogle",
-      title: "Search Google for '%s'",
+      title: "Google",
       contexts: ["selection"]
     });
     
     chrome.contextMenus.create({
       id: "searchBrave",
-      title: "Search Brave for '%s'",
+      title: "Brave",
       contexts: ["selection"]
     });
 
     chrome.contextMenus.create({
       id: "searchGrok",
-      title: "Search Grok for '%s'",
+      title: "Grok",
       contexts: ["selection"]
     });
   });
