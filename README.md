@@ -13,11 +13,26 @@ A Chrome extension that allows you to quickly search selected text across multip
 
 ## Installation
 
-1. Clone this repository or download the ZIP file
-2. Open Chrome and navigate to `chrome://extensions/`
-3. Enable "Developer mode" in the top right corner
-4. Click "Load unpacked"
-5. Select the directory containing the extension files
+### Option 1: Installing from Git
+1. Open your terminal
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/search-redirector.git
+   ```
+3. Open Chrome and navigate to `chrome://extensions/`
+4. Enable "Developer mode" by clicking the toggle switch in the top right corner
+5. Click "Load unpacked" button in the top left
+6. Navigate to the directory where you cloned the repository and select it
+7. The extension should now appear in your extensions list and be ready to use
+
+### Option 2: Installing from ZIP
+1. Download the ZIP file from the repository
+2. Extract the ZIP file to a location on your computer
+3. Open Chrome and navigate to `chrome://extensions/`
+4. Enable "Developer mode" by clicking the toggle switch in the top right corner
+5. Click "Load unpacked" button in the top left
+6. Navigate to the extracted folder and select it
+7. The extension should now appear in your extensions list and be ready to use
 
 ## Usage
 
