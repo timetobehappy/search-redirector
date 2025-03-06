@@ -17,7 +17,7 @@ A Chrome extension that allows you to quickly search selected text across multip
 1. Open your terminal
 2. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/search-redirector.git
+   git clone https://github.com/timetobehappy/search-redirector.git
    ```
 3. Open Chrome and navigate to `chrome://extensions/`
 4. Enable "Developer mode" by clicking the toggle switch in the top right corner
