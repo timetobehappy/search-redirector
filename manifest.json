@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Search Anywhere",
+    "version": "1.1",
+    "description": "Search selected text on ChatGPT, Google, or Brave",
+    "permissions": ["contextMenus", "tabs"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "16": "icon_16.png",
+      "48": "icon_48.png",
+      "128": "icon_128.png"
+    }
+  }
+  
+  
